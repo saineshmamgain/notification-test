@@ -13,7 +13,7 @@ function sendGoogleCloudMessage($data, $ids)
 {
 	// Insert real GCM API key from Google APIs Console
 	// https://code.google.com/apis/console/
-	$apiKey = 'AIzaSyBp1Q_G9UwFXuYoYoiNFAl1n6_0v9GWOu8';
+	$apiKey = '';
 	// Define URL to GCM endpoint
 	$url = 'https://android.googleapis.com/gcm/send';
 	// Set GCM post variables (device IDs and push payload)
